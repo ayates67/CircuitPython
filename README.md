@@ -78,6 +78,7 @@ while True:
 
 ### Wiring
 <img src="tinker servo.PNG">
+
 ### Reflection
 This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. Then I googled a code for this asignment and found the perfect one. Once I got the wiring right, I got the servo up and running.
 
