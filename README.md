@@ -11,12 +11,28 @@ This repository will actually serve as a aid to help you get started with your o
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
+The import board and neopixel and time are the variable that help the computer know what to do. Then I printed (make it red then green then blue.) The number in the dot fill tell the metro what color to print at a certain time.
 
 Here's how you make code look like code:
 
-```python
-Code goes here
+```
+import board
+import neopixel
+import time
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.1
+
+while True:
+    print("Make it red!")
+    dot.fill((255, 0, 0))
+    time.sleep(0.5)
+    print("Make it green!")
+    dot.fill((0, 255, 0))
+    time.sleep(0.5)
+    print("Make it cyan!")
+    dot.fill((0, 128, 128))
+    time.sleep(0.5)
 
 ```
 
@@ -25,11 +41,10 @@ Code goes here
 Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
 
 ### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+I didn't have any wiring for this asignment because I was using the neopixel on the board and no other components.
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
+At first, I was very new to the circuit python. I didn't know how to even get started. But slowly but surely I used Mr. Dieroff's videos and learned how there isn't a void setup and loop anymore. The loop is called "while true instead." I finally got the code right and the board started printing blue. The problem was, I couldn't get in to print the other colors even though I told it to do so. With the help of Mr. H, I realized that my problem was the values of the print. Once I figured that out, I got it working.
 
 
 
