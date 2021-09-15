@@ -52,18 +52,34 @@ At first, I was very new to the circuit python. I didn't know how to even get st
 ## CircuitPython_Servo
 
 ### Description & Code
+The imports tell the computer what components I am working with. Then the adafruit motor tell the metro that I am using a motor and it also tell it how the motor works. Then the while true consists of the angle that the servo will move. It tells the servo to move back and fourth 180 degrees.
+```
+import time
+import board
+import pwmio
+from adafruit_motor import servo
 
-```python
-Code goes here
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+
+while True:
+    for angle in range(0, 180, 5):   # 0 - 180 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
+    for angle in range(180, 0, -5):  # 180 - 0 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
 ```
 
 ### Evidence
 
 ### Wiring
-
+<img src="tinker servo.PNG">
 ### Reflection
-
+This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. Then I googled a code for this asignment and found the perfect one. Once I got the wiring right, I got the servo up and running.
 
 
 
