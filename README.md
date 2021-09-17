@@ -38,7 +38,7 @@ while True:
 
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+
 
 ### Wiring
 I didn't have any wiring for this asignment because I was using the neopixel on the board and no other components.
@@ -75,6 +75,7 @@ while True:
 ```
 
 ### Evidence
+![WIN_20210915_09_44_09_Pro_SparkVideo](https://user-images.githubusercontent.com/71342169/133789362-035773ec-70c5-427e-bfe7-5f5742c084d7.gif)
 
 ### Wiring
 <img src="tinker servo.PNG">
