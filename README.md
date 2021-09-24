@@ -129,7 +129,7 @@ This code is credited to https://github.com/Jhouse53/CircuitPython
 ![WIN_20210924_09_28_54_Pro_SparkVideo (3)](https://user-images.githubusercontent.com/71342169/134684129-689edc3b-d5b2-4c37-8561-a209d757047c.gif)
 
 ### Wiring
-<img src="tinker sensor.PNG">
+<img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20sensor.PNG?raw=true">
 
 ### Reflection
 This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values with the help of my classmates.
