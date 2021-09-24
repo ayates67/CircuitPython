@@ -123,6 +123,7 @@ while True:
         print("Retrying")
     time.sleep(0.1)
 ```
+This code is credited to https://github.com/Jhouse53/CircuitPython
 
 ### Evidence
 ![WIN_20210924_09_28_54_Pro_SparkVideo (3)](https://user-images.githubusercontent.com/71342169/134684129-689edc3b-d5b2-4c37-8561-a209d757047c.gif)
@@ -131,7 +132,7 @@ while True:
 <img src="tinker sensor.PNG">
 
 ### Reflection
-This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values. 
+This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values with the help of my classmates.
 
 
 
