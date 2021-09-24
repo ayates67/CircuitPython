@@ -79,7 +79,7 @@ while True:
 ![WIN_20210915_09_44_09_Pro_SparkVideo](https://user-images.githubusercontent.com/71342169/133789362-035773ec-70c5-427e-bfe7-5f5742c084d7.gif)
 
 ### Wiring
-<img src="tinker servo.PNG">
+<img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20servo.PNG?raw=true">
 
 ### Reflection
 This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. Then I googled a code for this asignment and found the perfect one. Once I got the wiring right, I got the servo up and running.
