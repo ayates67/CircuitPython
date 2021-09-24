@@ -89,10 +89,39 @@ This asignment was easier for me because I was more used to circuitpython going 
 ## CircuitPython_Distance Sensor
 
 ### Description & Code
+In this code, the imports are in order to get the computer working with the board and the other components. The next part above "while true" helps tell the board what type of sensor and also where the light is. Lastly, the while true tell the light to light a certain color depending on the distance read by the sensor.
 
-```python
-Code goes here
+```
+import time
+import board
+import adafruit_hcsr04
+import neopixel
+import simpleio
 
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D8, echo_pin=board.D9)
+dot.brightness=0.1
+red = 0
+blue = 0
+green = 0
+while True:
+    try:
+        distance = sonar.distance
+        print((distance,))
+
+        if distance >= 5 and distance < 20:
+            red = int(simpleio.map_range(distance, 5, 20, 255, 0))
+            blue = int(simpleio.map_range(distance, 5, 20, 0, 255))
+            green = int(simpleio.map_range(distance, 5, 20, 0, 0))
+        if distance >= 20 and distance < 35:
+            red = int(simpleio.map_range(distance, 20, 35, 0, 0))
+            blue = int(simpleio.map_range(distance, 20, 35, 255, 0))
+            green = int(simpleio.map_range(distance, 20, 35, 0, 255))
+        print(red,green,blue)
+        dot.fill((red, green, blue))
+    except RuntimeError:
+        print("Retrying")
+    time.sleep(0.1)
 ```
 
 ### Evidence
@@ -100,8 +129,9 @@ Code goes here
 
 ### Wiring
 <img src="tinker sensor.PNG">
-### Reflection
 
+### Reflection
+This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values. 
 
 
 
