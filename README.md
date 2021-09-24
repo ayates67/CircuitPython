@@ -99,7 +99,7 @@ Code goes here
 ![WIN_20210924_09_28_54_Pro_SparkVideo (3)](https://user-images.githubusercontent.com/71342169/134684129-689edc3b-d5b2-4c37-8561-a209d757047c.gif)
 
 ### Wiring
-
+<img src="tinker sensor.PNG">
 ### Reflection
 
 
