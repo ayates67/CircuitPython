@@ -86,7 +86,7 @@ This asignment was easier for me because I was more used to circuitpython going 
 
 
 
-## CircuitPython_LCD
+## CircuitPython_Distance Sensor
 
 ### Description & Code
 
@@ -96,6 +96,7 @@ Code goes here
 ```
 
 ### Evidence
+![WIN_20210924_09_28_54_Pro_SparkVideo (3)](https://user-images.githubusercontent.com/71342169/134684129-689edc3b-d5b2-4c37-8561-a209d757047c.gif)
 
 ### Wiring
 
