@@ -137,16 +137,45 @@ This asignment was very challenging. I had trouble figuing out how to write a co
 
 
 
-## NextAssignment
+## Photointerupter
 
 ### Description & Code
+I got this code thanks to [Ian Novotne](https://github.com/inovotn04/CircuitPython/blob/main/Files/photointerrupterCode.py) for the code. It tells the photointerupter to count how many times it has been interupted.
+```import time
+import board
+import digitalio
+import neopixel
 
-```python
-Code goes here
+interrupter = digitalio.DigitalInOut(board.D7)
+interrupter.direction = digitalio.Direction.INPUT
+interrupter.pull = digitalio.Pull.UP
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.1
+counter = 0
+
+photo = False
+state = False
+
+max = 4
+start = time.time()
+while True:
+    photo = interrupter.value
+    if photo and not state:
+        counter += 1
+        dot.fill((0, 255, 0))
+    state = photo
+    remaining = max - time.time()
+
+    if remaining <= 0:
+        print("Interrupts:", str(counter))
+        max = time.time() + 4
+        dot.fill((170, 0, 0))
 
 ```
 
 ### Evidence
+![WIN_20211001_10_04_17_Pro_SparkVideo (2)](https://user-images.githubusercontent.com/71342169/135634057-33e34ff7-cff9-4deb-94ec-dbae421d2d90.gif)
 
 ### Wiring
 
