@@ -79,7 +79,7 @@ while True:
 ![WIN_20210915_09_44_09_Pro_SparkVideo](https://user-images.githubusercontent.com/71342169/133789362-035773ec-70c5-427e-bfe7-5f5742c084d7.gif)
 
 ### Wiring
-<img src="tinker servo.PNG">
+<img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20servo.PNG?raw=true">
 
 ### Reflection
 This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. Then I googled a code for this asignment and found the perfect one. Once I got the wiring right, I got the servo up and running.
@@ -129,7 +129,7 @@ This code is credited to https://github.com/Jhouse53/CircuitPython
 ![WIN_20210924_09_28_54_Pro_SparkVideo (3)](https://user-images.githubusercontent.com/71342169/134684129-689edc3b-d5b2-4c37-8561-a209d757047c.gif)
 
 ### Wiring
-<img src="tinker sensor.PNG">
+<img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20sensor.PNG?raw=true">
 
 ### Reflection
 This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values with the help of my classmates.
@@ -137,16 +137,45 @@ This asignment was very challenging. I had trouble figuing out how to write a co
 
 
 
-## NextAssignment
+## Photointerupter
 
 ### Description & Code
+I got this code thanks to [Ian Novotne](https://github.com/inovotn04/CircuitPython/blob/main/Files/photointerrupterCode.py) for the code. It tells the photointerupter to count how many times it has been interupted.
+```import time
+import board
+import digitalio
+import neopixel
 
-```python
-Code goes here
+interrupter = digitalio.DigitalInOut(board.D7)
+interrupter.direction = digitalio.Direction.INPUT
+interrupter.pull = digitalio.Pull.UP
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.1
+counter = 0
+
+photo = False
+state = False
+
+max = 4
+start = time.time()
+while True:
+    photo = interrupter.value
+    if photo and not state:
+        counter += 1
+        dot.fill((0, 255, 0))
+    state = photo
+    remaining = max - time.time()
+
+    if remaining <= 0:
+        print("Interrupts:", str(counter))
+        max = time.time() + 4
+        dot.fill((170, 0, 0))
 
 ```
 
 ### Evidence
+![WIN_20211001_10_04_17_Pro_SparkVideo (2)](https://user-images.githubusercontent.com/71342169/135634057-33e34ff7-cff9-4deb-94ec-dbae421d2d90.gif)
 
 ### Wiring
 
