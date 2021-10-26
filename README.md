@@ -178,5 +178,7 @@ while True:
 ![WIN_20211001_10_04_17_Pro_SparkVideo (2)](https://user-images.githubusercontent.com/71342169/135634057-33e34ff7-cff9-4deb-94ec-dbae421d2d90.gif)
 
 ### Wiring
+<img src="https://github.com/ayates67/CircuitPython/blob/main/media/photo%20int%20wiring.PNG?raw=true">
 
 ### Reflection
+For this assignment got it done relativly fast. I got the wiring done and then used a code that I found from another classmate. Mr. H helped me find a problem with my wiring. Once I got that done, I was done with everything and the code and photoint were working.
