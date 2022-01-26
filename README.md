@@ -45,7 +45,7 @@ while True:
 I didn't have any wiring for this asignment because I was using the neopixel on the board and no other components.
 
 ### Reflection
-At first, I was very new to the circuit python. I didn't know how to even get started. But slowly but surely I used Mr. Dieroff's videos and learned how there isn't a void setup and loop anymore. The loop is called "while true instead." I finally got the code right and the board started printing blue. The problem was, I couldn't get in to print the other colors even though I told it to do so. With the help of Mr. H, I realized that my problem was the values of the print. Once I figured that out, I got it working.
+At first, I was very new to the circuit python. I didn't know how to even get started. But slowly but surely I used Mr. Dieroff's videos and learned how there isn't a void setup and loop anymore. The loop is called "while true instead." I finally got the code right and the board started printing blue. The problem was, I couldn't get in to print the other colors even though I told it to do so. I realized that my problem was the values of the print. Through using google I figured out that certain colors have certain values. Once I figured that out, I got it working.
 
 
 
@@ -82,7 +82,7 @@ while True:
 <img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20servo.PNG?raw=true">
 
 ### Reflection
-This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. Then I googled a code for this asignment and found the perfect one. Once I got the wiring right, I got the servo up and running.
+This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. I knew what I needed to do I just had to look at what wires connect where. Then I googled a code for this asignment and found the perfect one. Once I got the wiring right, I got the servo up and running.
 
 
 
@@ -132,7 +132,7 @@ This code is credited to https://github.com/Jhouse53/CircuitPython
 <img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20sensor.PNG?raw=true">
 
 ### Reflection
-This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values with the help of my classmates.
+This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values. I did some research and also was grateful for one of my classmate's code which worked very well.
 
 
 
@@ -181,4 +181,4 @@ while True:
 <img src="https://github.com/ayates67/CircuitPython/blob/main/media/photo%20int%20wiring.PNG?raw=true">
 
 ### Reflection
-For this assignment got it done relativly fast. I got the wiring done and then used a code that I found from another classmate. Mr. H helped me find a problem with my wiring. Once I got that done, I was done with everything and the code and photoint were working.
+For this assignment got it done relativly fast. I got the wiring done and then used a code that I found from another classmate. I found a problem with my wiring. Once I got that fixeed, I was done with everything and the code and photoint were working smoothly.
