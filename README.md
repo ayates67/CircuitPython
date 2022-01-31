@@ -82,7 +82,7 @@ while True:
 <img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20servo.PNG?raw=true">
 
 ### Reflection
-This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. I knew what I needed to do I just had to look at what wires connect where. Then I googled a code for this asignment and found https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo. Once I got the wiring right, I got the servo up and running.
+This asignment was easier for me because I was more used to circuitpython going into it. One challenge I had was the wiring. I didn't know which wire went where. Luckily, I figuired it out by asking a few of my classmates and them helping me out. I knew what I needed to do I just had to look at what wires connect where. Then I googled a code for this asignment and found https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo. Once I got the wiring right, I got the servo up and rotating.
 
 
 
@@ -132,7 +132,7 @@ This code is credited to https://github.com/Jhouse53/CircuitPython
 <img src="https://github.com/ayates67/CircuitPython/blob/main/media/tinker%20sensor.PNG?raw=true">
 
 ### Reflection
-This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values. I did some research and also was grateful for one of my classmate's code which worked very well.
+This asignment was very challenging. I had trouble figuing out how to write a code to do what I want. It took me a few classes but I figured out how to start reading distances then how to do the rgb values. I did some research and when that didn't work I asked for one of my classmate's code which worked very well.
 
 
 
