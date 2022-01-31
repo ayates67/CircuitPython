@@ -45,7 +45,7 @@ while True:
 I didn't have any wiring for this asignment because I was using the neopixel on the board and no other components.
 
 ### Reflection
-At first, I was very new to the circuit python. I didn't know how to even get started. But slowly but surely I used Mr. Dieroff's videos and learned how there isn't a void setup and loop anymore. The loop is called "while true instead." I finally got the code right and the board started printing blue. The problem was, I couldn't get in to print the other colors even though I told it to do so. I realized that my problem was the values of the print. Through using google I figured out that certain colors have certain values https://www.rapidtables.com/web/color/RGB_Color.html. Once I figured that out, I got it working.
+At first, I was very new to the circuit python. I didn't know how to even get started. But slowly but surely I used Mr. Dieroff's videos and learned how there isn't a void setup and loop anymore. The loop is called "while true instead." I finally got the code right and the board started printing blue. The problem was, I couldn't get in to print the other colors even though I told it to do so. I realized that my problem was the values of the print. Through using google [I found this awesome site](https://www.rapidtables.com/web/color/RGB_Color.html) and figured out that certain colors have certain values. Once I figured that out, I got it working.
 
 
 
